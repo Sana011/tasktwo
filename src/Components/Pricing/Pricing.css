@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.price-ul {
+  list-style: none !important;
+}
+.price-li {
+  display: flex;
+}
+.Price-Card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 4px;
+}
+.Price-Card-body {
+  margin-top: -50px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 40px;
+}
+.year {
+  font-size: 14px;
+  color: #ff8c00;
+}
+.price-amount {
+  color: #ff8c00;
+}
+.fas-fa {
+  color: #ff8c00;
+}
+
+.buynow {
+  padding: 5px 10px;
+  border: none;
+  background-color: #ff8c00;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 705px) {
+  .Price-Card-body {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+  .Price-Card {
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 746px) {
+  .Price-Card-body {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+  .Price-Card {
+    flex-wrap: wrap;
+  }
+}

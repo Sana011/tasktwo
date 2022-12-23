@@ -1,0 +1,9 @@
+@media only screen and (max-width: 520px) {
+ 
+    .dos{
+        flex-wrap: wrap;
+    }
+    .doc{
+        flex-wrap: wrap;
+    }
+  }

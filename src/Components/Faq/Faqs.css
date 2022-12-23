@@ -1,0 +1,17 @@
+.faq-des{
+    color: rgb(176, 176, 176);
+}
+.suno{
+    color: #ff8c00;
+}
+.fqss{
+    border-bottom: 1px solid #dbdbda;
+}
+
+.FAQS{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+   
+}

@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+ }
+.happy-clients{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.clients-card-1{
+    width: 20%;
+    gap: 10px;
+    margin-bottom: 10px;
+    height: 10%;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 875px) {
+    .clients-card-1{
+     width: 100%;
+margin-bottom:60px;
+    }
+    .happy-clients{
+        flex-wrap: wrap;
+    }
+  }

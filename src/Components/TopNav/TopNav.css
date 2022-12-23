@@ -1,0 +1,28 @@
+.TopNav{
+    background-color: #EEEEEE;
+    padding: 10px;
+}
+.topnav-right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 110px;
+}
+
+@media only screen and (max-width: 480px) {
+    .topnav-right{
+display: block;
+    }
+  }
+  @media only screen and (max-width: 496px) {
+    .topnav-right{
+display: block;
+    }
+  }
+  @media only screen and (max-width: 565px) {
+    .topnav-right{
+     
+       margin-left: 10px;
+       margin: auto ;
+    }
+  }

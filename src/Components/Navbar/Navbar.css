@@ -1,0 +1,25 @@
+.hh{
+    color: rgb(8, 8, 8);
+    background-color: aqua;
+}
+/* .navBar{
+ padding: 0 15px;
+} */
+
+.nav-Logo{
+    font-weight: bold;
+    color: orangered !important;
+    margin-left: 40px;
+}
+.nav-ull{
+    margin: 0 100px;
+}
+@media only screen and (max-width: 400px) {
+    .hero-card-para {
+  font-size: 9px;
+    }
+  }
+
+  li a:active{
+    color: orangered;
+  }

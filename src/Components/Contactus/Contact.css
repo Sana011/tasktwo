@@ -1,0 +1,50 @@
+/* .form-con{
+    background-color: white;
+} */
+.contct-div{
+    background-color: gainsboro;
+}
+.left-contct-rw{
+    width: 35%;
+
+}
+.rigt-con{
+    background-color: rgb(250, 251, 251);
+    width: 20%;
+
+  
+}
+.Btn{
+    background-color: #ff8c00;
+    border: none;
+}
+.complet-form{
+    width: 100% ;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 100px;
+}
+
+@media only screen and (max-width: 1008px) {
+    .left-contct-rw {
+      width: 40%;
+            }
+            .rigt-con {
+                width: 40%;
+              padding: 10px;
+           
+            }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .left-contct-rw {
+      width: 100%;
+            }
+            .rigt-con {
+                width: 80%;
+              padding: 10px;
+              margin-bottom: 20px;
+           
+            }
+  }

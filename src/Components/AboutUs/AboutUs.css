@@ -1,0 +1,79 @@
+.delvry-section{
+    background-color: #F6F5F5;
+    position: relative;
+}
+.parsecl-section{
+    display: flex;
+    justify-content: center;
+    margin-top: -100px;
+    padding-top: -50px;
+}
+.parsecl-section img{
+    width: 60%;
+}
+
+.about-heading{
+    color: #ff8c00;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.icon-play{
+    position: absolute;
+   background-color: #ff8c00;
+   padding:25px;
+   border-radius: 50px;
+   top: 25%;
+   left: 45%;
+   width: 35px;
+   height: 35px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.counter-num{
+    color: #ff8c00;
+   
+}
+.botom{
+    border-bottom: 2px solid #393837;
+    width: 60px;
+}
+
+.counter{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+ 
+  
+}
+  @media only screen and (max-width: 789px) {
+    .icon-play{
+      top: 5%;
+
+    }
+  } 
+  @media only screen and (max-width: 562px) {
+    .icon-play{
+      top: 10%;
+
+    }
+  } 
+   
+  @media only screen and (max-width: 448px) {
+    .icon-play{
+      top: 1%;
+      padding: 3px;
+
+    }
+  }
+
+
+
+   @media only screen and (max-width: 411px) {
+    .icon-play{
+      padding: 5px;
+
+    }
+  }   

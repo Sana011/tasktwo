@@ -1,0 +1,76 @@
+.staff-card-con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+    margin-bottom: 10px;
+
+}
+.team-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 50px;
+    border-radius: 50px;
+   
+}
+.team-social-acount{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-content: space-between;
+}
+.team-social-fas{
+    background-color: #ff8c00;
+    padding: 5px 10px;
+    color: white;
+    gap: 5px;
+    display: flex;
+    
+}
+.staff-card-1{
+    width: 20%;
+    margin-top: -50px;
+    gap: 10px;
+    margin-bottom: 10px;
+    height: 10%;
+    background-color: white;
+    border: 1px solid #e6e4e3;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 912px) {
+    .staff-card-con{
+flex-wrap: wrap;
+
+    }
+    .staff-card-1{
+        width: 70%;
+        margin-bottom: 50px;
+    }
+  }
+  @media only screen and (max-width: 682px) {
+    .staff-card-con{
+        flex-wrap: wrap;
+        
+            }
+            .staff-card-1{
+                width: 70%;
+                margin-bottom: 50px;
+            }
+  }
+  @media only screen and (max-width: 618px) {
+    .staff-card-con{
+        flex-wrap: wrap;
+        
+            }
+            .staff-card-1{
+                width: 70%;
+                margin-bottom: 50px;
+            }
+  }
+ 

@@ -1,0 +1,90 @@
+.offer-con{
+    background-color: #F6F5F5;
+}
+.offer-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+.offer-heading{
+    color: #ff8c00;
+    
+}
+.fax{
+    color: #ff8c00;
+    font-size: 30px;
+}
+.offer-card-1{
+    width: 20%;
+margin-top: -50px;
+gap: 10px;
+margin-bottom: 10px;
+height: 10%;
+background-color: white;
+border: 1px solid #cecdcc;
+padding: 20px;
+
+}
+
+.hero-crd-heading{
+color: #ff8c00;
+}
+
+
+/* .hero-card-para{
+    color: rgb(186, 185, 185);
+    font-size: 13px;
+} */
+@media only screen and (max-width: 792px) {
+    .offer-card-1 {
+     flex-wrap: wrap;
+     width: 50%;
+     margin-bottom: 10px;
+    }
+  }
+  @media only screen and (max-width: 794px) {
+    .offer-card-1 {
+     flex-wrap: wrap;
+     width: 50%;
+
+    }
+  }
+  @media only screen and (max-width: 918px) {
+    .offer-card-1 {
+     flex-wrap: wrap;
+     width: 30%;
+
+    }
+  }
+  @media only screen and (max-width: 616px) {
+    .offer-card-1 {
+     flex-wrap: wrap;
+     width: 50%;
+
+    }
+  }
+  @media only screen and (max-width: 626px) {
+    .offer-card-1 {
+     flex-wrap: wrap;
+     width: 50%;
+
+    }
+  }
+  @media only screen and (max-width: 524px) {
+    .offer-card-1 {
+     flex-wrap: wrap;
+     width: 70%;
+
+    }
+  }
+  @media only screen and (max-width: 557px) {
+    .offer-card-1 {
+     flex-wrap: wrap;
+     width: 70%;
+
+    }
+  }
